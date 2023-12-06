@@ -2,7 +2,7 @@
   测试浮点类型
 */
 
-class VariableInteger{
+class VariableFloatDouble{
   public static void main(String[] args){
     
     // 1. 测试浮点型变量的使用 单精度float    双精度double
