@@ -31,6 +31,9 @@
   e：default： 类似于if-else中的else
         default是可选，而且位置是灵活的
 
+4. switch-case 与if-else之间的转换
+  能够使用switch-case都可以转换为if-else，反之，不成立
+  开发中，如果一个问题既可以使用switch-case又可以使用if-else，推荐使用switch-case。switch-case效率更高。
 */ 
 class SwitchCaseTest{
   public static void main(String args[]){
